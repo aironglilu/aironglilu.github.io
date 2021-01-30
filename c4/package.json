@@ -1,20 +1,20 @@
 {
-  "name": "@kenrick95/c4-browser",
+  "name": "@aironglilu/c4-browser",
   "version": "1.0.0",
   "description": "Connect Four game in browser",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kenrick95/c4.git"
+    "url": "https://github.com/aironglilu/c4.git"
   },
   "author": {
-    "name": "Kenrick",
-    "email": "kenrick95@gmail.com",
-    "url": "https://kenrick95.org"
+    "name": "aironglilu",
+    "email": "aironglilu@gmail.com",
+    "url": "https://aironglilu.icu"
   },
   "bugs": {
-    "url": "https://github.com/kenrick95/c4/issues"
+    "url": "https://github.com/aironglilu/c4/issues"
   },
-  "homepage": "https://github.com/kenrick95/c4",
+  "homepage": "https://github.com/aironglilu/c4",
   "license": "MIT",
   "keywords": [
     "c4",
@@ -29,12 +29,12 @@
   "scripts": {
     "start": "parcel src/index.html",
     "build": "yarn clean && parcel build src/index.html",
-    "build-gh-pages": "yarn clean && parcel build src/index.html --public-url \"https://kenrick95.github.io/c4/dist/\"",
+    "build-gh-pages": "yarn clean && parcel build src/index.html --public-url \"https://aironglilu.github.io/c4/dist/\"",
     "prettier": "prettier --write \"./**/*.?(ts|html|scss|css)\"",
     "clean": "shx rm -rf dist/"
   },
   "dependencies": {
-    "@kenrick95/c4": "4.0.0",
+    "@aironglilu/c4": "4.0.0",
     "es6-promise": "^4.2.8",
     "url-search-params-polyfill": "^8.0.0"
   },

@@ -1,5 +1,5 @@
-import { BoardPiece } from '@kenrick95/c4/src/board'
-import { PlayerHuman } from '@kenrick95/c4/src/player'
+import { BoardPiece } from '@aironglilu/c4/src/board'
+import { PlayerHuman } from '@aironglilu/c4/src/player'
 import { GameLocal, initGameLocal } from './game-local'
 
 class GameLocal2p extends GameLocal {}
